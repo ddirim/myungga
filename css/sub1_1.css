@@ -1,0 +1,171 @@
+/* sub1_1. style. css */
+/* 커피나무 소개 */
+
+
+/* title_img */
+#title_img {
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin-bottom: 0px;
+    position: relative;
+  }
+  #title_img h2 {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Noto serif', sans-serif;
+    font-style: italic;
+  }
+#title_img > img {
+    width: 100%;
+    min-height: 400px;
+}
+
+section > img {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 500px;
+}
+
+/* lnb */
+#sub1_1_lnb {
+    width: 1200px;
+    margin:  0 auto;
+}
+#sub1_1_lnb li {
+    float: left;
+    width: calc(1200px / 3);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #efefef;
+    margin-bottom: 30px;
+}
+#sub1_1_lnb li:last-child {
+    margin-right: 0;
+}
+#sub1_1_lnb li a {
+    font-size: 20px;
+    display: block;
+}
+#sub1_1_lnb li a:hover,
+#sub1_1_lnb .active,
+#sub1_1_lnb .active > a  {
+    color: #fff;
+    background: #9A886B;
+}
+
+
+
+/* breadcrumb */
+.location {
+    width: 1200px;
+    margin: 0 auto;
+    color: #787878;
+    text-align: right;
+}
+
+
+
+/* contents */
+#contents {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#contents .pic1 {
+    width: 460px;
+    height: 560px;
+    float: left;
+}
+
+#contents .text1 {
+    width: 389px;
+    height: 447px;
+    float: left;
+    margin: 0 0 0 90px;
+}
+h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-size: 34px;
+    margin-bottom: 35px;
+    margin: 35px 0 35px 0;
+}
+#contents .text1 > hr {
+    width: 115px;
+    border: 1px solid #2e2e2e;
+    background: #2e2e2e;
+    margin-bottom: 90px;
+    text-align: right;
+}
+#contents p {
+    font-size: 18;
+    line-height: 40px;
+}
+
+
+#contents > .pic2 {
+    margin-top: 300px;
+    float: right;
+    width: 460px;
+    height: 560px;
+}
+
+#contents > .text2 {
+    margin: 180px 90px 0 0;
+    float: right;
+    width: 340px;
+    height: 407px;
+    text-align: right;
+}
+
+#contents > .text2 > hr {
+    width: 115px;
+    border: 1px solid #2e2e2e;
+    background: #2e2e2e;
+    margin-left: 225px;
+}
+
+#contents > .pic3 {
+    margin: 300px 0 150px 0;
+    float: left;
+    width: 460px;
+    height: 560px;
+}
+
+#contents > .text3 {
+    margin: 140px 0 0 90px;
+    float: left;
+    width: 340px;
+    height: 407px;
+    text-align: left;
+}
+
+#contents > .text3 > hr {
+    width: 115px;
+    border: 1px solid #2e2e2e;
+    background: #2e2e2e;
+    margin-right: 225px;
+}
+
+#contents > .text1 > h2 {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn{
+    0% {}
+    20% {}
+    80% {}
+    100% {}
+}

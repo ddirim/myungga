@@ -1,0 +1,177 @@
+/* sub1_3_오시는길.css */
+#title_img {
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin-bottom: 0px;
+    position: relative;
+  }
+  #title_img h2 {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Noto serif', sans-serif;
+    font-style: italic;
+  }
+#title_img > img {
+    width: 100%;
+    min-height: 400px;
+}
+
+section#title {
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+section {
+  text-align: center;
+}
+section h2 {
+  font-size: 60px;
+  font-family: 'Noto Sans HK', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #2e2e2e;
+}
+section h3 {
+  font-size: 40px;
+  color: #565656;
+}
+/* 타이틀 이미지 */
+
+section > img {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 500px;
+}
+
+/* lnb */
+#sub1_3_lnb {
+    width: 1200px;
+    margin:  0 auto;
+}
+#sub1_3_lnb li {
+    float: left;
+    width: calc(1200px / 3);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #efefef;
+    margin-bottom: 30px;
+}
+#sub1_3_lnb li:last-child {
+    margin-right: 0;
+}
+#sub1_3_lnb li a {
+    font-size: 20px;
+    display: block;
+}
+#sub1_3_lnb li a:hover,
+#sub1_3_lnb .active,
+#sub1_3_lnb .active > a  {
+    color: #fff;
+    background: #9A886B;
+}
+
+/* breadcrumb */
+.location {
+    width: 1200px;
+    margin: 0 auto;
+    color: #787878;
+    text-align: right;
+    padding-bottom: 100px;
+}
+
+#map > img {
+  width: 1200px;
+  height: 1200px;
+  padding-top: 100px;
+}
+
+/* 커피나무 본사위치 */
+#main {
+  width: 1200px;
+  height: 220px;
+  margin: 0 auto;
+  text-align: left;
+  /* outline: 2px solid green; */
+  padding-top: 150px;
+  padding-bottom: 140px;
+}
+
+.line {
+  width: 1200px;
+  display: inline-block;
+  border-bottom: 2px solid rgba(46,46,46,0.6);
+  margin: 0 auto;
+}
+
+#section {
+  width: 1200px;
+  outline: 2px solid red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* 상세정보 */
+
+.box1, .box2, .box3, .box4 {
+  float: left;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+#tel {
+   margin: 0 auto;
+   width: 1200px;
+   height: 235px;
+   text-align: left;
+   margin-bottom: 180px;
+}
+.box1 {
+  width: 130px;
+  height: 235px;
+  font-size: 25px;
+}
+.box1 > ul > li:nth-child(3) {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box2 {
+  width: 570px;
+  height: 235px;
+  font-size: 20px;
+}
+.box2 > ul > li:nth-child(4) {
+  margin-top: 38px;
+  margin-bottom: 59px;
+}
+.box3 {
+  width: 130px;
+  height: 235px;
+  font-size: 25px;
+}
+.box4 {
+  width: 370px;
+  height: 235px;
+  font-size: 20px;
+}
+.box4 > ul > li:nth-child(2) {
+  margin-top: 15px;
+  line-height: 20px;
+  
+}
+.box4 > ul > li:nth-child(3) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box4 >ul > li > img {
+  height: 20px;
+}
