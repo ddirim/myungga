@@ -1,165 +1,209 @@
-/* sub1_1. style. css */
-/* 커피나무 소개 */
+/*
+sub1_1.css
+커피명가 이야기
+*/
 
+/* 서브페이지 공통스타일 */
 
-/* title_img */
 #title_img {
-    max-width: 1920px;
-    min-width: 1200px;
-    height: 500px;
-    margin: 0 auto;
-    /* overflow: hidden; */
-    margin-bottom: 0px;
-    position: relative;
-  }
-  #title_img h2 {
-    position: absolute;
-    display: block;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 70px;
-    font-weight: bold;
-    font-family: 'Noto serif', sans-serif;
-    font-style: italic;
-  }
-#title_img > img {
-    width: 100%;
-    min-height: 400px;
-}
-
-section > img {
   max-width: 1920px;
   min-width: 1200px;
   height: 500px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  margin-bottom: 0px;
+  position: relative;
+}
+#title_img h2 {
+  position: absolute;
+  display: block;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Noto serif', sans-serif;
+  font-style: italic;
+}
+#title_img > img {
+  width: 100%;
+  min-height: 400px;
+}
+
+section#title {
+max-width: 1920px;
+min-width: 1200px;
+margin: 0 auto;
+overflow: hidden;
+margin-bottom: 50px;
+}
+section {
+text-align: center;
+}
+section h2 {
+font-size: 60px;
+font-family: 'Noto Sans HK', sans-serif;
+margin-top: 5px;
+margin-bottom: 40px;
+color: #2e2e2e;
+}
+section h3 {
+font-size: 40px;
+color: #565656;
+}
+
+/* 타이틀 이미지 */
+section > img {
+max-width: 1920px;
+min-width: 1200px;
+height: 500px;
 }
 
 /* lnb */
-#sub1_1_lnb {
-    width: 1200px;
-    margin:  0 auto;
+#lnb {
+  width: 1200px;
+  height: 120px;
+  margin:  0 auto;
+  margin-bottom: 30px;
 }
-#sub1_1_lnb li {
-    float: left;
-    width: calc(1200px / 3);
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    background: #efefef;
-    margin-bottom: 30px;
+#lnb li {
+  float: left;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background: #fff;
+  color:#522C00;
 }
-#sub1_1_lnb li:last-child {
-    margin-right: 0;
+#lnb li:last-child {
+  margin-right: 0;
 }
-#sub1_1_lnb li a {
-    font-size: 20px;
-    display: block;
-}
-#sub1_1_lnb li a:hover,
-#sub1_1_lnb .active,
-#sub1_1_lnb .active > a  {
-    color: #fff;
-    background: #9A886B;
+#lnb li a {
+  font-size: 20px;
+  display: block;
+  box-shadow: 0px 3px 6px #e6e6e6;
 }
 
-
+#lnb li a:hover,
+#lnb .active,
+#lnb .active > a  {
+  color: #522C00;
+  background: #FFF100;
+}
 
 /* breadcrumb */
-.location {
-    width: 1200px;
-    margin: 0 auto;
-    color: #787878;
-    text-align: right;
+.breadcrumbs {
+  width: 1200px;
+  margin: 0 auto;
+  color: #787878;
+  /* text-align: right; */
+  text-align: left;
+  /* padding-bottom: 100px; */
 }
 
+.breadcrumbs > span {
+  padding: 0 5px;
+}
 
 
 /* contents */
+
 #contents {
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 150px;
-    /* border: 1px solid red; */
-    box-sizing: border-box;
-    overflow: hidden;
-}
-#contents .pic1 {
-    width: 460px;
-    height: 560px;
-    float: left;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  color: #2e2e2e;
 }
 
-#contents .text1 {
-    width: 389px;
-    height: 447px;
-    float: left;
-    margin: 0 0 0 90px;
+#contents > article {
+  height: 400px;
+  margin-bottom: 200px;
 }
-h2 {
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    font-size: 34px;
-    margin-bottom: 35px;
-    margin: 35px 0 35px 0;
-}
-#contents .text1 > hr {
-    width: 115px;
-    border: 1px solid #2e2e2e;
-    background: #2e2e2e;
-    margin-bottom: 90px;
-    text-align: right;
-}
+
 #contents p {
-    font-size: 18;
-    line-height: 40px;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.img1 > img,
+.img3 > img {
+  float: left;
+}
+
+.text1, .text3 {
+  float: left;
+}
+
+.img2 > img {
+  float: right;
+}
+
+.text2 {
+  float: right;
 }
 
 
-#contents > .pic2 {
-    margin-top: 300px;
-    float: right;
-    width: 460px;
-    height: 560px;
-}
-
-#contents > .text2 {
-    margin: 180px 90px 0 0;
-    float: right;
-    width: 340px;
-    height: 407px;
-    text-align: right;
-}
-
-#contents > .text2 > hr {
-    width: 115px;
-    border: 1px solid #2e2e2e;
-    background: #2e2e2e;
-    margin-left: 225px;
-}
-
-#contents > .pic3 {
-    margin: 300px 0 150px 0;
-    float: left;
-    width: 460px;
-    height: 560px;
-}
-
-#contents > .text3 {
-    margin: 140px 0 0 90px;
-    float: left;
-    width: 340px;
-    height: 407px;
+.text1 > p {
+  /* outline: 2px solid red; */
+    width: 373px;
+    height: 129px;
+    margin-left: 40px;
     text-align: left;
 }
 
-#contents > .text3 > hr {
-    width: 115px;
-    border: 1px solid #2e2e2e;
-    background: #2e2e2e;
-    margin-right: 225px;
+.text1 hr {
+  width: calc(373px + 40px);
+  margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,0.7);
+
 }
 
-#contents > .text1 > h2 {
+.text1 { padding-top: 60px;}
+
+
+.text2 > p {
+  /* outline: 2px solid red; */
+    width: 258px;
+    height: 95px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+.text2 hr {
+  width: calc(258px + 40px);
+  margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,0.7);
+
+}
+
+.text2 { padding-top: 200px;}
+
+
+.text3 > p {
+  /* outline: 2px solid red; */
+    width: 230px;
+    height: 95px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.text3 hr {
+  width: calc(230px + 40px);
+  margin-top: 30px;
+  border: 1px solid rgba(0,0,0,0.7);
+
+}
+
+.text3 { padding-top: 200px;}
+
+
+
+
+
+
+/* #contents > .text1 > h2 {
     animation-name: fadeIn;
 }
 
@@ -168,4 +212,4 @@ h2 {
     20% {}
     80% {}
     100% {}
-}
+} */

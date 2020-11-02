@@ -9,87 +9,112 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
-  <!-- bx slider css -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
   <!-- 스타일시트 -->
   <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://kit.fontawesome.com/f4c615dcd8.js" crossorigin="anonymous"></script>
+
   <!-- 제이쿼리 -->
   <script src="js/jquery-3.5.1.min.js"></script>
-  <!-- bx slider -->
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
   <!-- images loded -->
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
   <!-- 외부 스크립트 -->
   <script src="./js/main.js"></script>
 </head>
 
 <body>
   <header id="main_header">
-    <h1>
-      <a href="https://github.com/ddirim/myungga.git">
-        <img src="./images/logo_header.jpg" alt="logo">
-      </a>
-    </h1>
 
-    <div class="login">
-      <a href="#">Login</a>
+    <a href="#">
+      <img src="./images/logo_header.jpg" alt="커피명가 logo">
+    </a>
+
+    <div class="icons">
+
+      <a href="https://www.facebook.com/CoffeeMyungga/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+      <a href="https://www.instagram.com/coffee.myungga/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
     </div>
-
-    <div class="header_sns">
-      <a href="https://www.instagram.com/coffeenamu_official/"><img src="./images/icon_insta.png" alt="인스타그램아이콘"></a>
-      <a href="https://blog.naver.com/coffeenamu9173"><img src="./images/icon_blog.png" alt="블로그아이콘"></a>
-    </div>
-
-    <div class="bg"></div>
 
     <nav id="gnb">
       <ul class="depth1">
-        <li><a href="sub1_1.html">Coffee Namu</a>
+        <li><a href="sub1_1.html">커피명가</a>
           <ul class="depth2">
-            <li><a href="sub1_1.html">커피나무 소개</a></li>
-            <li><a href="#">커피나무 연혁</a></li>
-            <li><a href="sub1_3.html">오시는 길</a></li>
+            <li><a href="sub1_1.html">커피명가 이야기</a></li>
+            <li><a href="#">커피명가 연혁</a></li>
+            <li><a href="#">La Finca</a></li>
+            <li><a href="#">독점 농장</a></li>
+            <li><a href="#">행복한커피 기금</a></li>
+            <li><a href="#">바리스타 교육</a></li>
+            <li><a href="sub1_7.html">오시는 길</a></li>
           </ul>
         </li>
-        <li><a href="sub2_2.html">Menu</a>
+        <li><a href="sub2_1.html">메뉴소개</a>
           <ul class="depth2">
-            <li><a href="#">신메뉴</a></li>
-            <li><a href="sub2_2.html">커피</a></li>
-            <li><a href="#">차&음료</a></li>
+            <li><a href="sub2_1.html">커피</a></li>
+            <li><a href="#">음료</a></li>
+            <li><a href="#">차</a></li>
             <li><a href="#">디저트</a></li>
-            <li><a href="#">시그니처 메뉴</a></li>
+            <li><a href="#">베이커리</a></li>
+            <li><a href="#">MD</a></li>
           </ul>
         </li>
-        <li><a href="#">Store</a>
+
+        <li><a href="#">명가SHOP</a>
           <ul class="depth2">
-            <li><a href="#">매장찾기</a></li>
+            <li><a href="#">원두</a></li>
+            <li><a href="#">생두</a></li>
+            <li><a href="#">콜드브루</a></li>
+            <li><a href="#">커피용품</a></li>
+            <li><a href="#">소산원 말차</a></li>
           </ul>
         </li>
-        <li><a href="#">Franchise</a>
+        <li><a href="#">원두 납품</a>
           <ul class="depth2">
-            <li><a href="#">가맹문의</a></li>
-            <li><a href="#">가맹절차</a></li>
+            <li><a href="#">원두 대량 구매</a></li>
+            <li><a href="#">원두 OEM 제작</a></li>
           </ul>
         </li>
-        <li><a href="#">Community</a>
+        <li><a href="#">가맹안내</a>
           <ul class="depth2">
-            <li><a href="#">이벤트</a></li>
-            <li><a href="#">이달의 클래스</a></li>
+            <li><a href="#">가맹안내</a></li>
+            <li><a href="#">상담신청</a></li>
+          </ul>
+        </li>
+        <li><a href="#">커피명가 소식</a>
+          <ul class="depth2">
             <li><a href="#">공지사항</a></li>
-            <li><a href="#">문의사항</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">보도자료</a></li>
+          </ul>
+        </li>
+        <li><a href="#"> <i class="fa fa-user-o" aria-hidden="true"></i> MY명가</a>
+          <ul class="depth2">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">주문조회</a></li>
+            <li><a href="#">문의하기</a></li>
           </ul>
         </li>
       </ul>
     </nav>
+
+    <div class="bg"></div>
+
   </header>
 
 
   <!-- 메인 비주얼 -->
   <section id="main_banner" class="slider">
     <div class="sliders">
-      <img src="./images/main_banner_1.jpg" alt="얼그레이시리즈">
-      <img src="./images/main_banner_2.jpg" alt="It's Coffee Time">
-      <img src="./images/main_banner_3.jpg" alt="시그니처 블렌드">
+      <img src="./images/main_banner_1.png" alt="참깨카푸치노">
+      <img src="./images/main_banner_2.png" alt="수제딸기케이크">
+      <img src="./images/main_banner_3.png" alt="배달의민족">
     </div>
 
     <div class="pager">
@@ -100,92 +125,113 @@
   </section>
 
   <!-- 신메뉴 -->
-  <section id="add_banner">
-      <div class="images_box">
-        <img src="./images/add_banner_bg.jpg" alt="신제품 토피넛 배너">
-        <img src="./images/add_banner_left.png" alt="토피넛라떼">
-        <img src="./images/add_banner_piece1.png" alt="토피넛라떼">
-        <img src="./images/add_banner_piece2.png" alt="토피넛라떼">
-        <img src="./images/add_banner_piece3.png" alt="토피넛라떼">
-        <img src="./images/add_banner_right.png" alt="에스프레소토피넛라떼">
-        <img src="./images/add_banner_piece4.png" alt="에스프레소토피넛라떼">
-        <a href="sub2_2.html"><img src="./images/add_banner_btn.png" alt="메뉴보기"></a>
-      </div>
+  <section id="moving_banner">
+    <div class="images_box">
+      <img src="./images/second_banner_bg.png" alt="수제디저트">
+      <img src="./images/수제컵티라미수.png" alt="수제 컵티라미수">
+      <img src="./images/수제가토쇼콜라.png" alt="수제 가토쇼콜라">
+      <img src="./images/수제생초콜릿.png" alt="수제 생 초콜릿">
+    </div>
   </section>
 
-  <section id="menu">
-    <div class="menu_nav">
+  <section id="right_nav">
+    <div class="right_nav">
       <a href="#">매장찾기</a>
-      <a href="sub2_2.html">메뉴소개</a>
-      <a href="#">문의사항</a>
+      <a href="sub2_1.html">메뉴소개</a>
+      <a href="#">문의하기</a>
       <a href="#">top</a>
     </div>
-    </section>
-  <!-- 뉴스 -->
-  <section id="news">
-    <h1>NEWS</h1>
-    <p>/<br>커피나무 이야기</p>
+  </section>
 
+
+  <!-- 뉴스 / 근처 매장 -->
+  <section id="news">
     <article>
-      
-      <div id="news_class">
-        <img src="./images/news_image.jpg" alt="news_image">
-      </div>
-      
-      <div id="news_event">
-        <h3><a href="#">공지사항 / 이벤트</a></h3>
-        <span class="line"></span>
-        <ul class="list1">
-          <li><a href="#">[신메뉴출시] 카라멜 멜팅 케이크 출시</a><span>2020.10.20</span></li>
-          <li><a href="#">[신메뉴출시] 토피넛 라떼 출시</a><span>2020.10.20</span></li>
-          <li><a href="#">[안내] 코로나 19 바이러스 감염 예방을 위한 거리두기</a><span>2020.05.21</span></li>
-          <li><a href="#">[이벤트] 신메뉴 오라봉 출시 기념 인스타그램 인증샷</a><span>2020.03.04</span></li>
+
+      <div id="news_list">
+        <h3><a href="#">커피명가 NEWS</a></h3>
+        <!-- <span class="line"></span> -->
+        <ul>
+          <li><a href="#">[공지] 추석연휴 운영시간 안내</a><span>2020.09.29</span></li>
+          <li><a href="#">[공지] 커피명가 30주년 기념 에코백 출시</a><span>2020.09.25</span></li>
+          <li><a href="#">[공지] 코로나 19 바이러스 감염 예방을 위한 거리두기</a><span>2020.05.21</span></li>
+          <li><a href="#">[공지] 2019 과테말라 El Injerto 농장주 세미나</a><span>2019.11.07</span></li>
         </ul>
       </div>
-      
+
+      <!-- 주변 매장  -->
+      <div id="search_fr">
+
+        <div>
+          <p>주변 매장 찾기</p>
+
+          <input class="input" type="text" placeholder="지역명 또는 매장명 입력">
+
+          <input class="submit_btn" type="submit" value="검색">
+
+        </div>
+
+      </div>
     </article>
   </section>
 
   <!-- 가맹안내 -->
- 
   <section id="fr">
-    <img src="images/franchise.png" alt="가맹안내">
-    <div id="fr_text">
-    <p>고객과 가맹점주, 협력사의<br>상생의 가치를 실천합니다.</p>
-    <a href="#">가맹절차</a>
-    <a href="#">가맹문의</a>
-  </div>
+
+    <div>
+
+      <p>
+        변화는 있어도 변함이 없는 패밀리샵 대표님들을 모십니다.<br>
+        커피명가와 함께 새로운 성공의 파트너가 되시길 기원합니다.
+      </p>
+
+      <div class="fr_btn">
+        <a href="#">가맹안내</a>
+        <a href="#">상담신청</a>
+      </div>
+
+    </div>
+
   </section>
 
   <section id="sns">
     <div class="title_txt">
-      <h1>SNS</h1> <br>
-      <h2> / </h2> <br>
-      <h2>이벤트 및 인증샷</h2>
+      <h1>#coffee.myungga</h1> <br>
+      <h2>/<br>
+        Instagram에서 커피명가 새소식 및 이벤트를 확인하세요!</h2>
     </div>
 
     <article class="sns_img">
-      <a href="https://www.instagram.com/p/B3rSEzzlqg5/"><img src="./images/sns_pic1.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/B9TJ3zwH88B/"><img src="./images/sns_pic2.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CCdORPIlpd5/"><img src="./images/sns_pic3.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CButmrnFFTy/"><img src="./images/sns_pic4.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CGi8fjvF2Ya/"><img src="./images/sns_pic5.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CCS1LHaFTRa/"><img src="./images/sns_pic6.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/B4jAYCIlFrp/"><img src="./images/sns_pic7.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CBAQVnmFIk6/"><img src="./images/sns_pic8.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CFZE1XrFSD4/"><img src="./images/sns_pic9.png" alt="sns이벤트이미지"></a>
-      <a href="https://www.instagram.com/p/CGi-SyvlaRL/"><img src="./images/sns_pic10.png" alt="sns이벤트이미지"></a>
+      <a href="https://www.instagram.com/p/CGv11HGh7ff/"><img src="./images/1.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CFtqLv7BELp/"><img src="./images/2.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CFjieWyhXp7/"><img src="./images/3.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CFeSDTNB3Fx/"><img src="./images/4.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CEtgftIBlPB/"><img src="./images/5.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CEBpn0qBDBV/"><img src="./images/6.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CDkpkbXBOeZ/"><img src="./images/7.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CDTU1zNBWOT/"><img src="./images/8.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CC98ZHzhfjw/"><img src="./images/9.png" alt="인스타그램 썸네일"></a>
+      <a href="https://www.instagram.com/p/CCInaRMBi1u/"><img src="./images/10.png" alt="인스타그램 썸네일"></a>
     </article>
 
   </section>
 
   <footer id="main_footer">
-    <a href="./"><img src="./images/logo_footer.png" alt="logo"></a>
-    <h3><a href="sub1_1.html">회사소개</a> &nbsp;&nbsp; <a href="#">제휴/제안</a>  &nbsp;&nbsp; <a href="#"><strong>개인정보처리방침</strong></a> </h3>
-    <p>서울시 동작구 상도로 53길 65 &nbsp;&nbsp; (주)커피나무 대표자: 백지연 &nbsp;&nbsp; 개인정보보호책임자: 백승훈</p>
-    <p>TEL: 1577-9173 &nbsp;&nbsp; FAX: 02-821-0744 &nbsp;&nbsp; 사업자등록번호: 108-86-14200 &nbsp;&nbsp; E-MAIL:info@coffeenamu.co.kr</p>
-    <p>&copy; Coffee Namu. All Rights Reserved</p>
+    <p>
+      <a href="sub1_1.html">회사 소개</a>
+      <a href="#">가맹안내</a>
+      <a href="#">문의하기</a>
+      <a href="#"><b>개인정보처리방침</b></a>
+    </p>
+
+    <p>대구 중구 동덕로26길 104<span>|</span>전화 : 053-254-0892<span>|</span>팩스 : 053-254-1474<span>|</span>이메일 :
+      admin@coffeemg.bizmeka.com</p>
+
+    <p>사업자등록번호 : 504-81-58075<span>|</span>통신판매업신고번호 : 제2009-대구중구-1940호<span>|</span>(주)커피명가 대표 : 안명규</p>
+
+    <p>© Coffee Myungga. All Rights Reserved</p>
   </footer>
+
 </body>
 
 </html>

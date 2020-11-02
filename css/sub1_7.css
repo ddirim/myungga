@@ -1,0 +1,148 @@
+/* 오시는길.css */
+#title_img {
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin-bottom: 0px;
+    position: relative;
+  }
+  #title_img h2 {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Noto serif', sans-serif;
+    font-style: italic;
+  }
+#title_img > img {
+    width: 100%;
+    min-height: 400px;
+}
+
+section#title {
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+section {
+  text-align: center;
+}
+section h2 {
+  font-size: 60px;
+  font-family: 'Noto Sans HK', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #2e2e2e;
+}
+section h3 {
+  font-size: 40px;
+  color: #565656;
+}
+/* 타이틀 이미지 */
+
+section > img {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 500px;
+}
+
+/* lnb */
+#lnb {
+    width: 1200px;
+    height: 120px;
+    margin:  0 auto;
+    margin-bottom: 30px;
+}
+#lnb li {
+    float: left;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #fff;
+    color:#522C00;
+}
+#lnb li:last-child {
+    margin-right: 0;
+}
+#lnb li a {
+    font-size: 20px;
+    display: block;
+    box-shadow: 0px 3px 6px #e6e6e6;
+  }
+
+#lnb li a:hover,
+#lnb .active,
+#lnb .active > a  {
+    color: #522C00;
+    background: #FFF100;
+}
+
+/* breadcrumb */
+.breadcrumbs {
+    width: 1200px;
+    margin: 0 auto;
+    color: #787878;
+    /* text-align: right; */
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.breadcrumbs > span {
+  padding: 0 5px;
+}
+
+#tab_btn {
+  /* height: 70px; */
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+#tab_btn > button {
+  border: 1px solid #2e2e2e;
+  background: #fff;
+  width: 300px;
+  height: 70px;
+  float: left;
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+#tab_btn .selected {
+  font-weight: 700;
+  opacity: 1;
+}
+
+#location1 > iframe,
+#location2 > iframe {
+  margin-bottom: 50px;
+}
+
+#location1 > .desc > h3,
+#location2 > .desc > h3 {
+  font-size: 24px;
+  color: #2e2e2e;
+}
+
+#location1 > .desc > p,
+#location2 > .desc > p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #707070;
+}
+
+#location1, #location2 {
+  display: none;
+  margin-bottom: 150px;
+}
+#location1.show, #location2.show { display: block;}
+

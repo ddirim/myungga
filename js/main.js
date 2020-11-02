@@ -88,19 +88,48 @@ $(function () {
   })
 
 });
+
+// 스크롤 내리면 우측nav 나타남
 $(function(){
   $(document).scroll(function(){
       var s = $(window).scrollTop();  
       console.log(s);
 
       if (s >= 1200) {
-        $('#menu > .menu_nav').addClass('show');
-        $('#menu > .menu_nav').removeClass('hide');
+        $('#right_nav > .right_nav').addClass('show');
+        $('#right_nav > .right_nav').removeClass('hide');
       } else {
-        $('#menu > .menu_nav').removeClass('show');
-        $('#menu > .menu_nav').addClass('hide');
+        $('#right_nav > .right_nav').removeClass('show');
+        $('#right_nav > .right_nav').addClass('hide');
 
       }
   })
 });    
+
+
+// sub1_7 오시는 길 탭메뉴
+ $(function(){
+   $('#tab_btn > button')
+   .first()
+   .click(function(){
+     $('#location1').addClass('show');
+     $('#location2').removeClass('show');
+     $(this).addClass('selected');
+     $('#tab_btn > button')
+         .last().removeClass('selected');
+   })
+
+   $('#tab_btn > button')
+   .last()
+   .click(function(){
+     $('#location2').addClass('show');
+     $('#location1').removeClass('show');
+     $(this).addClass('selected');
+     $('#tab_btn > button')
+         .first().removeClass('selected');
+   })
+
+
+ })
+
  // $end
