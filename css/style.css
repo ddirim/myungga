@@ -4,9 +4,8 @@
 커피명가
 
 메인 컬러: #fff102 (yellow) - 로고 bg
-서브 컬러: #522c00 (brown) - 로고 글씨
-          #883d1f (brown) - 하단영역 bg
-footer 컬러: #2b2822
+서브 컬러: #52362A (brown)
+footer 컬러: #2C2B2D;
 */
 
 * {
@@ -65,13 +64,13 @@ h2 {
 #gnb {
     /* outline: 1px solid red; */
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     position: absolute;
     top: 52px;
     left: 130px;
     /* transform: translateX(-50%); */
     z-index: 9999; 
-    width: 1000px;
+    width: 1020px;
 }
 
 #gnb > ul.depth1 {
@@ -88,15 +87,15 @@ h2 {
   }
   
   #gnb > ul.depth1 > li:last-child {
-    padding-left: 20px;
-    /* font-weight: 700; */
-    font-weight: bold;
+    padding-left: 110px;
+    padding-right: 0;
+    /* font-weight: bold; */
 
   }
   
   
   #gnb .depth1 > li > a {
-    /* color: #9c929c; */
+    color: #2e2e2e;
     width: 120px;
     height: 50px;
     line-height: 50px;
@@ -107,6 +106,14 @@ h2 {
 #gnb .depth1 > li > a:hover {
   border-bottom: 4px solid #fff102;
   font-weight: bold;
+}
+
+#gnb .depth1 > li:last-child {
+  font-size: 14px;
+}
+
+#gnb .depth1 > li:last-child > a {
+  width: 70px;
 }
 
 /* 2depth menu */
@@ -130,8 +137,8 @@ h2 {
 #gnb .depth2 > li > a {
     display: block;
     padding-top: 14px;
-    /* color: #522C00; */
-    font-weight: 300;
+    color: #2e2e2e;
+    font-weight: 400;
 }
 
 #gnb .depth2 > li > a:hover {
@@ -296,7 +303,6 @@ padding: 0 2px;
     border-radius: 50%;
     position: relative;
     background: #FFF100;
-    color: #522C00;
     text-align: center;
     margin-bottom: 30px;
     line-height: 100px;
@@ -308,9 +314,9 @@ padding: 0 2px;
   margin: 0 auto;
   height: 30px;
   border-radius: 0px;
-  border: 1px solid #522C00;
+  border: 1px solid #000;
   background: #fff;
-  color: #522C00;
+  color: #000;
   line-height: 26px;
   font-weight: 400;
 }
