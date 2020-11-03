@@ -37,20 +37,11 @@ margin: 0 auto;
 overflow: hidden;
 margin-bottom: 50px;
 }
+
 section {
 text-align: center;
 }
-section h2 {
-font-size: 60px;
-font-family: 'Noto Sans HK', sans-serif;
-margin-top: 5px;
-margin-bottom: 40px;
-color: #2e2e2e;
-}
-section h3 {
-font-size: 40px;
-color: #565656;
-}
+
 
 /* 타이틀 이미지 */
 section > img {
@@ -87,7 +78,6 @@ height: 500px;
 #lnb li a:hover,
 #lnb .active,
 #lnb .active > a  {
-  color: #522C00;
   background: #FFF100;
 }
 
@@ -105,8 +95,97 @@ height: 500px;
   padding: 0 5px;
 }
 
+section h3 {
+  font-size: 40px;
+  /* color: #565656; */
+  color: #2e2e2e;
+  }
 
 section > hr {
-  border: 1px solid rgba(0,0,0,0.7);
-  width: 100px;
+  border: 2px solid rgba(0,0,0,0.7);
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 100px;
 }
+
+/* 에스프레소&베리에이션 */
+#coffee_sec1 > ul {
+  width: 1200px;
+  margin: 0 auto;
+  /* outline: 1px solid green; */
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+#coffee_sec1 > ul > li {
+  /* outline: 1px solid red; */
+  float: left;
+  margin: 0 50px;
+  /* margin-top: 50px; */
+  height: 300px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#best_btn {
+  width: 46px;
+  height: 46px;
+  background: #FFF100;
+  font-size: 12px;
+  border-radius: 50%;
+  line-height: 46px;
+  position: absolute;
+}
+
+#season_btn {
+  width: 46px;
+  height: 46px;
+  background: #522C00;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 50%;
+  line-height: 46px;
+  position: absolute;
+}
+
+
+/* 핸드드립커피 */
+
+#coffee_sec2 {
+  width: 1200px;
+  margin: 0 auto;
+  /* outline: 1px solid green; */
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+#coffee_sec2 > div{
+  /* text-align: left; */
+}
+
+#coffee_sec2 > ul {
+  overflow: hidden;
+}
+
+#coffee_sec2 > ul > li {
+  float: left;
+  margin-right: 160px;
+  margin-bottom: 100px;
+}
+
+#coffee_sec2 > ul > li:nth-child(3) {
+  margin-right: 0px;  
+}
+
+#coffee_sec2 .name {
+  font-size: 14px;
+  color: #2e2e2e;
+  padding: 10px 0;
+}
+
+#coffee_sec2 .taste {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+

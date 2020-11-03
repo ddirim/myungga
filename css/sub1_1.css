@@ -87,7 +87,6 @@ height: 500px;
 #lnb li a:hover,
 #lnb .active,
 #lnb .active > a  {
-  color: #522C00;
   background: #FFF100;
 }
 
