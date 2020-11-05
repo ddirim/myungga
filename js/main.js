@@ -96,11 +96,11 @@ $(function(){
       console.log(s);
 
       if (s >= 1200) {
-        $('#right_nav > .right_nav').addClass('show');
-        $('#right_nav > .right_nav').removeClass('hide');
+        $('.right_nav').addClass('show');
+        $('.right_nav').removeClass('hide');
       } else {
-        $('#right_nav > .right_nav').removeClass('show');
-        $('#right_nav > .right_nav').addClass('hide');
+        $('.right_nav').removeClass('show');
+        $('.right_nav').addClass('hide');
 
       }
   })
